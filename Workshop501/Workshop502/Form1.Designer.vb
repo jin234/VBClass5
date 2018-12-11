@@ -23,31 +23,31 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.NumericUpDown5 = New System.Windows.Forms.NumericUpDown()
+        Me.NumericUpDown6 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown5 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown6 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
         CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,6 +70,78 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "เมนุเนื้อ"
         '
+        'NumericUpDown4
+        '
+        Me.NumericUpDown4.Enabled = False
+        Me.NumericUpDown4.Location = New System.Drawing.Point(113, 98)
+        Me.NumericUpDown4.Name = "NumericUpDown4"
+        Me.NumericUpDown4.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown4.TabIndex = 7
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(6, 99)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(65, 17)
+        Me.CheckBox4.TabIndex = 6
+        Me.CheckBox4.Text = "หมูสไลด์"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown3
+        '
+        Me.NumericUpDown3.Enabled = False
+        Me.NumericUpDown3.Location = New System.Drawing.Point(113, 72)
+        Me.NumericUpDown3.Name = "NumericUpDown3"
+        Me.NumericUpDown3.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown3.TabIndex = 5
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(6, 73)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(70, 17)
+        Me.CheckBox3.TabIndex = 4
+        Me.CheckBox3.Text = "เนื้อสไลด์"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown2
+        '
+        Me.NumericUpDown2.Enabled = False
+        Me.NumericUpDown2.Location = New System.Drawing.Point(113, 46)
+        Me.NumericUpDown2.Name = "NumericUpDown2"
+        Me.NumericUpDown2.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown2.TabIndex = 3
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(6, 47)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(94, 17)
+        Me.CheckBox2.TabIndex = 2
+        Me.CheckBox2.Text = "เนื้อหมูสันนอก"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Enabled = False
+        Me.NumericUpDown1.Location = New System.Drawing.Point(113, 20)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown1.TabIndex = 1
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(6, 21)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(87, 17)
+        Me.CheckBox1.TabIndex = 0
+        Me.CheckBox1.Text = "เนื้อหมูสันใน"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.NumericUpDown5)
@@ -83,7 +155,61 @@ Partial Class Form1
         Me.GroupBox2.Size = New System.Drawing.Size(197, 157)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "เมนูหมู"
+        Me.GroupBox2.Text = "เมนูผัก"
+        '
+        'NumericUpDown5
+        '
+        Me.NumericUpDown5.Enabled = False
+        Me.NumericUpDown5.Location = New System.Drawing.Point(114, 21)
+        Me.NumericUpDown5.Name = "NumericUpDown5"
+        Me.NumericUpDown5.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown5.TabIndex = 13
+        '
+        'NumericUpDown6
+        '
+        Me.NumericUpDown6.Enabled = False
+        Me.NumericUpDown6.Location = New System.Drawing.Point(114, 47)
+        Me.NumericUpDown6.Name = "NumericUpDown6"
+        Me.NumericUpDown6.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown6.TabIndex = 11
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Location = New System.Drawing.Point(7, 22)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(59, 17)
+        Me.CheckBox5.TabIndex = 12
+        Me.CheckBox5.Text = "ผักกาด"
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Location = New System.Drawing.Point(6, 74)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(52, 17)
+        Me.CheckBox7.TabIndex = 8
+        Me.CheckBox7.Text = "ผักบุ้ง"
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown7
+        '
+        Me.NumericUpDown7.Enabled = False
+        Me.NumericUpDown7.Location = New System.Drawing.Point(114, 73)
+        Me.NumericUpDown7.Name = "NumericUpDown7"
+        Me.NumericUpDown7.Size = New System.Drawing.Size(77, 20)
+        Me.NumericUpDown7.TabIndex = 9
+        '
+        'CheckBox6
+        '
+        Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.Location = New System.Drawing.Point(7, 48)
+        Me.CheckBox6.Name = "CheckBox6"
+        Me.CheckBox6.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox6.TabIndex = 10
+        Me.CheckBox6.Text = "เห็ดเข็มทอง"
+        Me.CheckBox6.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -127,125 +253,6 @@ Partial Class Form1
         Me.Button2.Text = "cancel"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(6, 21)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.Text = "เนื้อหมูสันใน"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(113, 20)
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown1.TabIndex = 1
-        '
-        'NumericUpDown2
-        '
-        Me.NumericUpDown2.Location = New System.Drawing.Point(113, 46)
-        Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown2.TabIndex = 3
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(6, 47)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox2.TabIndex = 2
-        Me.CheckBox2.Text = "เนื้อหมูสันใน"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown3
-        '
-        Me.NumericUpDown3.Location = New System.Drawing.Point(113, 72)
-        Me.NumericUpDown3.Name = "NumericUpDown3"
-        Me.NumericUpDown3.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown3.TabIndex = 5
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(6, 73)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox3.TabIndex = 4
-        Me.CheckBox3.Text = "เนื้อหมูสันใน"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown4
-        '
-        Me.NumericUpDown4.Location = New System.Drawing.Point(113, 98)
-        Me.NumericUpDown4.Name = "NumericUpDown4"
-        Me.NumericUpDown4.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown4.TabIndex = 7
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(6, 99)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox4.TabIndex = 6
-        Me.CheckBox4.Text = "เนื้อหมูสันใน"
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown5
-        '
-        Me.NumericUpDown5.Location = New System.Drawing.Point(114, 73)
-        Me.NumericUpDown5.Name = "NumericUpDown5"
-        Me.NumericUpDown5.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown5.TabIndex = 13
-        '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(7, 74)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox5.TabIndex = 12
-        Me.CheckBox5.Text = "เนื้อหมูสันใน"
-        Me.CheckBox5.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown6
-        '
-        Me.NumericUpDown6.Location = New System.Drawing.Point(114, 47)
-        Me.NumericUpDown6.Name = "NumericUpDown6"
-        Me.NumericUpDown6.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown6.TabIndex = 11
-        '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(7, 48)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox6.TabIndex = 10
-        Me.CheckBox6.Text = "เนื้อหมูสันใน"
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown7
-        '
-        Me.NumericUpDown7.Location = New System.Drawing.Point(114, 21)
-        Me.NumericUpDown7.Name = "NumericUpDown7"
-        Me.NumericUpDown7.Size = New System.Drawing.Size(77, 20)
-        Me.NumericUpDown7.TabIndex = 9
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(7, 22)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(87, 17)
-        Me.CheckBox7.TabIndex = 8
-        Me.CheckBox7.Text = "เนื้อหมูสันใน"
-        Me.CheckBox7.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -261,12 +268,12 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
